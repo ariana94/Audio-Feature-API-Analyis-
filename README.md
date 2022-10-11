@@ -16,4 +16,5 @@ Questions to ask:
 What genres are the most popular in each of the top touring cities?
   - What audio features can help predict the success of a genre on tour?
 
-
+My assignment for this week:
+establish dataset of 1000 songs of random genres
