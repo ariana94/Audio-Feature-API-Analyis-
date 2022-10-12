@@ -1,5 +1,3 @@
-# Final-Project
-Module 20: Final Project
 
 
 10/10 recap:
