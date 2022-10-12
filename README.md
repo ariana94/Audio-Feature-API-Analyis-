@@ -8,3 +8,5 @@ Module 20: Final Project
   - Grant Permissions             ***-Partially Completed***
     - Made Public but could not figure out indivual contributor permissons.
 - Create AWS Postgres DB          ***-Completed***
+- Create S3 Piepline              ***-Issue with Pipeline***
+  - Will ask for assistance 10/11
