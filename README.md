@@ -9,7 +9,7 @@ Culturally, the United States is a complex tapestry comprised of a multitude of 
 
 ## Methodology
 
-This analysis will rely heavily on Spotify's and Sonkick's API to collect data (such as audio features) on music ranked in the "Top 40s" for the United States. Audio features are description of sound or an audio signal that can basically be fed into statistical or ML models. Some of the audio features being taken into account in this analysis include a song's acousticness, danceability, energy, loudness, etc. In order to accomplish this the data must first get extracted from the APIs, then transformed into a clean data set, and finally loaded into our ML algorithm. Different methods will be used in this analysis including; K-means clustering,
+This analysis will rely heavily on Spotify's and Sonkick's API to collect data (such as audio features) on music ranked in the "Top 40s" for the United States. Audio features are description of sound or an audio signal that can basically be fed into statistical or ML models. Some of the audio features being taken into account in this analysis include a song's acousticness, danceability, energy, loudness, etc. In order to accomplish this the data must first get extracted from the APIs, then transformed into a clean data set, and finally loaded into our ML algorithm. Different methods will be used in this analysis including; K-means clustering, ...
 
 
 
