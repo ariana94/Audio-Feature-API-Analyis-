@@ -4,7 +4,7 @@ How has the audio profile of top 40 music changed over time.
 
 10/10 recap:
 
-K-means clustering with spotify audio featuring such as acousticness, danceability, energy, loudness, etc..
+K-means clustering with spotify audio features such as acousticness, danceability, energy, loudness, etc..
 
 mapping by genre/by city with layers
 limit data to a small amount of genres and start off with just the top(10?) cities
