@@ -71,7 +71,7 @@ I saved all Spotify data into the 'songs' dataset for downstream analyses.
 
 ### 3. SQL database
 
-I uploaded the complete 'songs' dataset and the 'charts spine' into pgAdmin 4, then performed an outer join using PostgreSQL to bind Spotify audio and genre
+I uploaded the complete 'songs' dataset and the 'charts spine' into Postgres in Amazon RDS via pgAdmin 4, then performed an outer join using PostgreSQL to bind Spotify audio and genre
 data onto the charts spine. This produced the complete 'charts' dataset, which includes all chart instances for all songs, plus Spotify data for each instance.
 The ERD for the database is visible here:
 ![](03_sql/top40_ERD.png)
