@@ -1,0 +1,38 @@
+# created at https://app.quickdatabasediagrams.com/#/
+
+# NOTE: using 'lots_of_audio_features' and 'lots_of_genres' as stand-in variables 
+# to avoid listing/visualizing hundreds of features
+
+songs
+-
+combo                   varchar pk 
+artist                  varchar
+song                    varchar
+artist_id               varchar
+song_id                 varchar
+lots_of_audio_features  numeric
+lots_of_genres          int
+
+charts_spine
+-
+chart_order             int pk 
+week                    date
+position                int
+artist                  varchar
+song                    varchar
+combo                   varkar fk -< songs.combo
+
+charts
+-
+chart_order             int pk fk - charts_spine.chart_order
+week                    date
+position                int
+artist                  varchar
+song                    varchar
+combo                   varkar fk -< songs.combo
+artist_id               varchar
+song_id                 varchar
+lots_of_audio_features  numeric
+lots_of_genres          int
+
+
