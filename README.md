@@ -4,11 +4,10 @@
 
 ## Overview 
 
-Culturally, the United States is a complex tapestry comprised of a multitude of influences and backgrounds. This is reflected in particular by the varying musical genres present across the nation, and in some cases influential around the world. With such a wide influence, many individuals and groups try to break into this industry with dreams of reaching the top of the charts and connecting with millions of people. Unfortunately, this task is much more difficult than many anticipate so only a handful of people ever reach this goal. Many speculate that the success of these few artists can be traced back to connections, and a stroke of luck. Although this may be true in some instances, the goal of this analysis is to determine if there are any audio features that can help predict the success of an artist and their music in American popculture. 
+Culturally, the United States is a complex tapestry comprised of a multitude of influences and backgrounds. This is reflected in particular by the varying musical genres present across the nation, and in some cases influential around the world. With such a wide influence, many individuals and groups try to break into this industry with dreams of reaching the top of the charts and connecting with millions of people. With that in mind, we came up with two questions: 
+First, Would the top 40 songs across time have any trends in their audio features?We first wanted to see what kind of information we could pull from the data when it first comes out of Spotify and Top40-Charts.com. Would we 1. have enough data to pull any meaningful trends, as is?  2.  Be able to determine how Spotify and  Top40-Charts even organize their genres? And 3.  Determine what these services define as ‘audio features’? Our second question was: is it possible to distinguish between different genres by their audio features alone using a ML model? It should be noted that for this analysis we focused on acousticness, danceability, energy, and loudness as audio features since virtually all songs scored somewhere in all these categories. 
 
-An archived American Top 40 singles charts merged with Spotify audio and genre data was used to characterize variation in American 
-popular music. Generally, guided by the question "How do American Top 40 songs vary?" To address this broad question,
-k-means clustering models were used to visualize patterns of variation in both genres and audio features across a sample of hit music singles.
+To address this broad question, k-means clustering models were used to visualize patterns of variation in both genres and audio features across a sample of hit music singles.
 
 ## Methodology
 
@@ -97,3 +96,15 @@ Because models didn't separate genres by audio features particularly well, we fo
 could be distinguished from songs by artists categorized as 'dance pop'. 
 
 ## Results
+
+We set out on this exploratory process asking if we could: firstly, use the initial data from spotify and top40-charts.com to pull any audio feature trends. 
+- After our analysis found that it is possible to pull trends in popularity over time and correlations between audio features such as Danceability, Energy, and acousticness. 
+
+- Our next question was to see if our ML model could distinguish between different genres by there audio features alone.
+After our analysis we determined it was not effective enough to differentiate genres by their audio features alone.
+
+There were some points in our analysis where our group identified areas where improvements could be made if more resources were available. Although there proved to be some challenges and learning experiences, we were able to successfully execute the ETL process and get our data into the designated ML Algorithm to investigate our questions.
+
+
+
+
