@@ -105,6 +105,8 @@ After our analysis we determined it was not effective enough to differentiate ge
 
 There were some points in our analysis where our group identified areas where improvements could be made if more resources were available. Although there proved to be some challenges and learning experiences, we were able to successfully execute the ETL process and get our data into the designated ML Algorithm to investigate our questions.
 
+What more would you like to see answered?
+
 
 
 
